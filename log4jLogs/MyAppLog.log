@@ -1,0 +1,200 @@
+String sql: SELECT * FROM users WHERE last_name LIKE '%%'
+createUserFromResults return users: User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}
+createUserFromResults return users: User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}
+createUserFromResults return users: User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}
+createUserFromResults return users: User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}
+createUserFromResults return users: User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}
+createUserFromResults return users: User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}
+getUserByLastName return users: [User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}, User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}, User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}, User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}, User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}, User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}]
+String sql: SELECT * FROM users
+createUserFromResults return users: User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}
+createUserFromResults return users: User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}
+createUserFromResults return users: User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}
+createUserFromResults return users: User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}
+createUserFromResults return users: User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}
+createUserFromResults return users: User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}
+getAllUsers return users: [User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}, User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}, User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}, User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}, User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}, User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}]
+String sql: SELECT * FROM users WHERE last_name LIKE '%coyne%'
+createUserFromResults return users: User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}
+getUserByLastName return users: [User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}]
+String sql: SELECT * FROM users
+createUserFromResults return users: User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}
+createUserFromResults return users: User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}
+createUserFromResults return users: User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}
+createUserFromResults return users: User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}
+createUserFromResults return users: User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}
+createUserFromResults return users: User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}
+getAllUsers return users: [User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}, User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}, User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}, User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}, User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}, User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}]
+String sql: SELECT * FROM users
+createUserFromResults return users: User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}
+createUserFromResults return users: User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}
+createUserFromResults return users: User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}
+createUserFromResults return users: User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}
+createUserFromResults return users: User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}
+createUserFromResults return users: User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}
+getAllUsers return users: [User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}, User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}, User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}, User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}, User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}, User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}]
+String sql: SELECT * FROM users WHERE last_name LIKE '%%'
+createUserFromResults return users: User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}
+createUserFromResults return users: User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}
+createUserFromResults return users: User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}
+createUserFromResults return users: User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}
+createUserFromResults return users: User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}
+createUserFromResults return users: User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}
+getUserByLastName return users: [User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}, User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}, User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}, User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}, User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}, User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}]
+String sql: SELECT * FROM users WHERE last_name LIKE '%coyne%'
+createUserFromResults return users: User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}
+getUserByLastName return users: [User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}]
+String sql: SELECT * FROM users WHERE last_name LIKE '%%'
+createUserFromResults return users: User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}
+createUserFromResults return users: User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}
+createUserFromResults return users: User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}
+createUserFromResults return users: User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}
+createUserFromResults return users: User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}
+createUserFromResults return users: User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}
+getUserByLastName return users: [User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}, User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}, User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}, User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}, User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}, User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}]
+String sql: SELECT * FROM users WHERE last_name LIKE '%hensen%'
+createUserFromResults return users: User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}
+getUserByLastName return users: [User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}]
+String sql: SELECT * FROM users WHERE last_name LIKE '%hensen%'
+createUserFromResults return users: User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}
+getUserByLastName return users: [User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}]
+String sql: SELECT * FROM users
+createUserFromResults return users: User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}
+createUserFromResults return users: User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}
+createUserFromResults return users: User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}
+createUserFromResults return users: User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}
+createUserFromResults return users: User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}
+createUserFromResults return users: User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}
+getAllUsers return users: [User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}, User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}, User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}, User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}, User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}, User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}]
+32
+32
+32
+32
+32
+32
+32
+32
+32
+32
+32
+29
+8
+2
+32
+29
+8
+2
+32
+29
+8
+2
+String sql: SELECT * FROM users WHERE last_name LIKE '%coyne%'
+createUserFromResults return users: User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}
+getUserByLastName return users: [User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}]
+String sql: SELECT * FROM users WHERE last_name LIKE '%%'
+createUserFromResults return users: User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}
+createUserFromResults return users: User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}
+createUserFromResults return users: User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}
+createUserFromResults return users: User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}
+createUserFromResults return users: User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}
+createUserFromResults return users: User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}
+getUserByLastName return users: [User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}, User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}, User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}, User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}, User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}, User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}]
+String sql: SELECT * FROM users
+createUserFromResults return users: User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}
+createUserFromResults return users: User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}
+createUserFromResults return users: User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}
+createUserFromResults return users: User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}
+createUserFromResults return users: User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}
+createUserFromResults return users: User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}
+getAllUsers return users: [User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}, User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}, User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}, User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}, User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}, User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}]
+32
+29
+8
+2
+32
+29
+8
+2
+String sql: SELECT * FROM users WHERE last_name LIKE '%%'
+createUserFromResults return users: User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}
+createUserFromResults return users: User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}
+createUserFromResults return users: User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}
+createUserFromResults return users: User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}
+createUserFromResults return users: User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}
+createUserFromResults return users: User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}
+createUserFromResults return users: User{firstName='Kyle', lastName='Vang', userid='7', dateOfBirth=1985-03-23}
+getUserByLastName return users: [User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}, User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}, User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}, User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}, User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}, User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}, User{firstName='Kyle', lastName='Vang', userid='7', dateOfBirth=1985-03-23}]
+32
+29
+8
+2
+32
+29
+8
+2
+32
+29
+8
+2
+32
+29
+8
+2
+32
+29
+8
+2
+32
+29
+8
+2
+32
+29
+8
+2
+32
+29
+8
+2
+32
+29
+8
+2
+String sql: SELECT * FROM users WHERE last_name LIKE '%%'
+createUserFromResults return users: User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}
+createUserFromResults return users: User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}
+createUserFromResults return users: User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}
+createUserFromResults return users: User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}
+createUserFromResults return users: User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}
+createUserFromResults return users: User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}
+createUserFromResults return users: User{firstName='Kyle', lastName='Vang', userid='7', dateOfBirth=1985-03-23}
+createUserFromResults return users: User{firstName='adminF', lastName='adminL', userid='8', dateOfBirth=1111-01-01}
+getUserByLastName return users: [User{firstName='Joe', lastName='Coyne', userid='1', dateOfBirth=1964-04-01}, User{firstName='Fred', lastName='Hensen', userid='2', dateOfBirth=1988-05-08}, User{firstName='Barney', lastName='Curry', userid='3', dateOfBirth=1947-11-11}, User{firstName='Karen', lastName='Mack', userid='4', dateOfBirth=1986-07-08}, User{firstName='Dianne', lastName='Klein', userid='5', dateOfBirth=1991-09-22}, User{firstName='Dawn', lastName='Tillman', userid='6', dateOfBirth=1979-08-30}, User{firstName='Kyle', lastName='Vang', userid='7', dateOfBirth=1985-03-23}, User{firstName='adminF', lastName='adminL', userid='8', dateOfBirth=1111-01-01}]
+32
+29
+8
+2
+32
+29
+8
+2
+32
+29
+8
+2
+32
+29
+8
+2
+32
+29
+8
+2
+32
+29
+8
+2
+32
+29
+8
+2
