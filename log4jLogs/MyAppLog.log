@@ -252,3 +252,89 @@ getUserByLastName return users: [User{firstName='Joe', lastName='Coyne', userid=
 29
 8
 2
+32
+29
+8
+2
+String sql: SELECT * FROM users WHERE last_name LIKE '%%'
+createUserFromResults return users: User(firstName=Joe, lastName=Coyne, userid=1, dateOfBirth=1964-04-01, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Fred, lastName=Hensen, userid=2, dateOfBirth=1988-05-08, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Barney, lastName=Curry, userid=3, dateOfBirth=1947-11-11, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Karen, lastName=Mack, userid=4, dateOfBirth=1986-07-08, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Dianne, lastName=Klein, userid=5, dateOfBirth=1991-09-22, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Dawn, lastName=Tillman, userid=6, dateOfBirth=1979-08-30, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Kyle, lastName=Vang, userid=7, dateOfBirth=1985-03-23, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=adminF, lastName=adminL, userid=8, dateOfBirth=1111-01-01, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=ruserF, lastName=ruserL, userid=9, dateOfBirth=1990-03-12, userName=null, userPass=null)
+getUserByLastName return users: [User(firstName=Joe, lastName=Coyne, userid=1, dateOfBirth=1964-04-01, userName=null, userPass=null), User(firstName=Fred, lastName=Hensen, userid=2, dateOfBirth=1988-05-08, userName=null, userPass=null), User(firstName=Barney, lastName=Curry, userid=3, dateOfBirth=1947-11-11, userName=null, userPass=null), User(firstName=Karen, lastName=Mack, userid=4, dateOfBirth=1986-07-08, userName=null, userPass=null), User(firstName=Dianne, lastName=Klein, userid=5, dateOfBirth=1991-09-22, userName=null, userPass=null), User(firstName=Dawn, lastName=Tillman, userid=6, dateOfBirth=1979-08-30, userName=null, userPass=null), User(firstName=Kyle, lastName=Vang, userid=7, dateOfBirth=1985-03-23, userName=null, userPass=null), User(firstName=adminF, lastName=adminL, userid=8, dateOfBirth=1111-01-01, userName=null, userPass=null), User(firstName=ruserF, lastName=ruserL, userid=9, dateOfBirth=1990-03-12, userName=null, userPass=null)]
+32
+29
+8
+2
+String sql: SELECT * FROM users WHERE last_name LIKE '%%'
+createUserFromResults return users: User(firstName=Joe, lastName=Coyne, userid=1, dateOfBirth=1964-04-01, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Fred, lastName=Hensen, userid=2, dateOfBirth=1988-05-08, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Barney, lastName=Curry, userid=3, dateOfBirth=1947-11-11, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Karen, lastName=Mack, userid=4, dateOfBirth=1986-07-08, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Dianne, lastName=Klein, userid=5, dateOfBirth=1991-09-22, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Dawn, lastName=Tillman, userid=6, dateOfBirth=1979-08-30, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Kyle, lastName=Vang, userid=7, dateOfBirth=1985-03-23, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=adminF, lastName=adminL, userid=8, dateOfBirth=1111-01-01, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=ruserF, lastName=ruserL, userid=9, dateOfBirth=1990-03-12, userName=null, userPass=null)
+getUserByLastName return users: [User(firstName=Joe, lastName=Coyne, userid=1, dateOfBirth=1964-04-01, userName=null, userPass=null), User(firstName=Fred, lastName=Hensen, userid=2, dateOfBirth=1988-05-08, userName=null, userPass=null), User(firstName=Barney, lastName=Curry, userid=3, dateOfBirth=1947-11-11, userName=null, userPass=null), User(firstName=Karen, lastName=Mack, userid=4, dateOfBirth=1986-07-08, userName=null, userPass=null), User(firstName=Dianne, lastName=Klein, userid=5, dateOfBirth=1991-09-22, userName=null, userPass=null), User(firstName=Dawn, lastName=Tillman, userid=6, dateOfBirth=1979-08-30, userName=null, userPass=null), User(firstName=Kyle, lastName=Vang, userid=7, dateOfBirth=1985-03-23, userName=null, userPass=null), User(firstName=adminF, lastName=adminL, userid=8, dateOfBirth=1111-01-01, userName=null, userPass=null), User(firstName=ruserF, lastName=ruserL, userid=9, dateOfBirth=1990-03-12, userName=null, userPass=null)]
+String sql: SELECT * FROM users
+createUserFromResults return users: User(firstName=Joe, lastName=Coyne, userid=1, dateOfBirth=1964-04-01, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Fred, lastName=Hensen, userid=2, dateOfBirth=1988-05-08, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Barney, lastName=Curry, userid=3, dateOfBirth=1947-11-11, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Karen, lastName=Mack, userid=4, dateOfBirth=1986-07-08, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Dianne, lastName=Klein, userid=5, dateOfBirth=1991-09-22, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Dawn, lastName=Tillman, userid=6, dateOfBirth=1979-08-30, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Kyle, lastName=Vang, userid=7, dateOfBirth=1985-03-23, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=adminF, lastName=adminL, userid=8, dateOfBirth=1111-01-01, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=ruserF, lastName=ruserL, userid=9, dateOfBirth=1990-03-12, userName=null, userPass=null)
+getAllUsers return users: [User(firstName=Joe, lastName=Coyne, userid=1, dateOfBirth=1964-04-01, userName=null, userPass=null), User(firstName=Fred, lastName=Hensen, userid=2, dateOfBirth=1988-05-08, userName=null, userPass=null), User(firstName=Barney, lastName=Curry, userid=3, dateOfBirth=1947-11-11, userName=null, userPass=null), User(firstName=Karen, lastName=Mack, userid=4, dateOfBirth=1986-07-08, userName=null, userPass=null), User(firstName=Dianne, lastName=Klein, userid=5, dateOfBirth=1991-09-22, userName=null, userPass=null), User(firstName=Dawn, lastName=Tillman, userid=6, dateOfBirth=1979-08-30, userName=null, userPass=null), User(firstName=Kyle, lastName=Vang, userid=7, dateOfBirth=1985-03-23, userName=null, userPass=null), User(firstName=adminF, lastName=adminL, userid=8, dateOfBirth=1111-01-01, userName=null, userPass=null), User(firstName=ruserF, lastName=ruserL, userid=9, dateOfBirth=1990-03-12, userName=null, userPass=null)]
+32
+29
+8
+2
+String sql: SELECT * FROM users
+createUserFromResults return users: User(firstName=Joe, lastName=Coyne, userid=1, dateOfBirth=1964-04-01, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Fred, lastName=Hensen, userid=2, dateOfBirth=1988-05-08, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Barney, lastName=Curry, userid=3, dateOfBirth=1947-11-11, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Karen, lastName=Mack, userid=4, dateOfBirth=1986-07-08, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Dianne, lastName=Klein, userid=5, dateOfBirth=1991-09-22, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Dawn, lastName=Tillman, userid=6, dateOfBirth=1979-08-30, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Kyle, lastName=Vang, userid=7, dateOfBirth=1985-03-23, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=adminF, lastName=adminL, userid=8, dateOfBirth=1111-01-01, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=ruserF, lastName=ruserL, userid=9, dateOfBirth=1990-03-12, userName=null, userPass=null)
+getAllUsers return users: [User(firstName=Joe, lastName=Coyne, userid=1, dateOfBirth=1964-04-01, userName=null, userPass=null), User(firstName=Fred, lastName=Hensen, userid=2, dateOfBirth=1988-05-08, userName=null, userPass=null), User(firstName=Barney, lastName=Curry, userid=3, dateOfBirth=1947-11-11, userName=null, userPass=null), User(firstName=Karen, lastName=Mack, userid=4, dateOfBirth=1986-07-08, userName=null, userPass=null), User(firstName=Dianne, lastName=Klein, userid=5, dateOfBirth=1991-09-22, userName=null, userPass=null), User(firstName=Dawn, lastName=Tillman, userid=6, dateOfBirth=1979-08-30, userName=null, userPass=null), User(firstName=Kyle, lastName=Vang, userid=7, dateOfBirth=1985-03-23, userName=null, userPass=null), User(firstName=adminF, lastName=adminL, userid=8, dateOfBirth=1111-01-01, userName=null, userPass=null), User(firstName=ruserF, lastName=ruserL, userid=9, dateOfBirth=1990-03-12, userName=null, userPass=null)]
+32
+29
+8
+2
+String sql: SELECT * FROM users WHERE last_name LIKE '%%'
+createUserFromResults return users: User(firstName=Joe, lastName=Coyne, userid=1, dateOfBirth=1964-04-01, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Fred, lastName=Hensen, userid=2, dateOfBirth=1988-05-08, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Barney, lastName=Curry, userid=3, dateOfBirth=1947-11-11, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Karen, lastName=Mack, userid=4, dateOfBirth=1986-07-08, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Dianne, lastName=Klein, userid=5, dateOfBirth=1991-09-22, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Dawn, lastName=Tillman, userid=6, dateOfBirth=1979-08-30, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Kyle, lastName=Vang, userid=7, dateOfBirth=1985-03-23, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=adminF, lastName=adminL, userid=8, dateOfBirth=1111-01-01, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=ruserF, lastName=ruserL, userid=9, dateOfBirth=1990-03-12, userName=null, userPass=null)
+getUserByLastName return users: [User(firstName=Joe, lastName=Coyne, userid=1, dateOfBirth=1964-04-01, userName=null, userPass=null), User(firstName=Fred, lastName=Hensen, userid=2, dateOfBirth=1988-05-08, userName=null, userPass=null), User(firstName=Barney, lastName=Curry, userid=3, dateOfBirth=1947-11-11, userName=null, userPass=null), User(firstName=Karen, lastName=Mack, userid=4, dateOfBirth=1986-07-08, userName=null, userPass=null), User(firstName=Dianne, lastName=Klein, userid=5, dateOfBirth=1991-09-22, userName=null, userPass=null), User(firstName=Dawn, lastName=Tillman, userid=6, dateOfBirth=1979-08-30, userName=null, userPass=null), User(firstName=Kyle, lastName=Vang, userid=7, dateOfBirth=1985-03-23, userName=null, userPass=null), User(firstName=adminF, lastName=adminL, userid=8, dateOfBirth=1111-01-01, userName=null, userPass=null), User(firstName=ruserF, lastName=ruserL, userid=9, dateOfBirth=1990-03-12, userName=null, userPass=null)]
+32
+29
+8
+2
+String sql: SELECT * FROM users WHERE last_name LIKE '%%'
+createUserFromResults return users: User(firstName=Joe, lastName=Coyne, userid=1, dateOfBirth=1964-04-01, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Fred, lastName=Hensen, userid=2, dateOfBirth=1988-05-08, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Barney, lastName=Curry, userid=3, dateOfBirth=1947-11-11, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Karen, lastName=Mack, userid=4, dateOfBirth=1986-07-08, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Dianne, lastName=Klein, userid=5, dateOfBirth=1991-09-22, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Dawn, lastName=Tillman, userid=6, dateOfBirth=1979-08-30, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=Kyle, lastName=Vang, userid=7, dateOfBirth=1985-03-23, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=adminF, lastName=adminL, userid=8, dateOfBirth=1111-01-01, userName=null, userPass=null)
+createUserFromResults return users: User(firstName=ruserF, lastName=ruserL, userid=9, dateOfBirth=1990-03-12, userName=null, userPass=null)
+getUserByLastName return users: [User(firstName=Joe, lastName=Coyne, userid=1, dateOfBirth=1964-04-01, userName=null, userPass=null), User(firstName=Fred, lastName=Hensen, userid=2, dateOfBirth=1988-05-08, userName=null, userPass=null), User(firstName=Barney, lastName=Curry, userid=3, dateOfBirth=1947-11-11, userName=null, userPass=null), User(firstName=Karen, lastName=Mack, userid=4, dateOfBirth=1986-07-08, userName=null, userPass=null), User(firstName=Dianne, lastName=Klein, userid=5, dateOfBirth=1991-09-22, userName=null, userPass=null), User(firstName=Dawn, lastName=Tillman, userid=6, dateOfBirth=1979-08-30, userName=null, userPass=null), User(firstName=Kyle, lastName=Vang, userid=7, dateOfBirth=1985-03-23, userName=null, userPass=null), User(firstName=adminF, lastName=adminL, userid=8, dateOfBirth=1111-01-01, userName=null, userPass=null), User(firstName=ruserF, lastName=ruserL, userid=9, dateOfBirth=1990-03-12, userName=null, userPass=null)]
